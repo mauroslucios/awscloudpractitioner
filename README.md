@@ -28,3 +28,28 @@ O candidato deve ter os seguintes conhecimentos:
 - Segurança e conformidade na Nuvem AWS
 - Compreensão dos principais serviços da AWS
 - Compreensão da economia da Nuvem AWS
+
+# Computação em nuvem
+
+- É a entrega de recursos de TI sob demanda pela internet com uma definição de pagamento pelo que usa.
+
+# Entrega sob demana
+
+- Ter os serviços quando precisar e de imediato
+
+# Infraestrutura da AWS
+
+- Região
+- Zona de disponibilidade
+- Ponto de presença
+
+# Região
+
+- É composta por 2 ou mais zonas de disponibilidade
+
+# Fatores consideráveis ao escolher uma região
+
+- Latência
+- Custo
+- Serviços disponíveis
+- Compliance
