@@ -45,7 +45,7 @@ O candidato deve ter os seguintes conhecimentos:
 
 # Região
 
-- É composta por 2 ou mais zonas de disponibilidade
+- É composta por 2(duas) ou mais zonas de disponibilidade
 
 # Fatores consideráveis ao escolher uma região
 
@@ -53,3 +53,26 @@ O candidato deve ter os seguintes conhecimentos:
 - Custo
 - Serviços disponíveis
 - Compliance
+
+# Zonas de disponibilidade
+
+- É um cojunto de datacenters, altamente redundantes projetados para trabalhar de forma isolada em caso de falha em alguma outra AZ.
+- Situados geograficamente distantes umas das outras
+- Interconectadas através de uma rede de telecom de Baixa Latência
+- É composta por 1(um) ou mais datacenter, recomenda-se 2(dois) ou 3(três) datacenters.
+- AWS possui atualmente 84 zonas de disponibilidade em 26 regiões
+
+# Ponto de presença
+
+- É um datacenter com escopo de serviço reduzido
+- AWS possui atualmente, mais de 410(quatrocentos e dez) pontos de presença em todo mundo
+
+# Ecopo de serviço
+
+- Define se o serviço roda apenas dentro de uma zona de disponibilidade, de uma região ou globalmente.
+
+# Níveis de escopo de serviço
+
+- Zona de disponibilidade
+- Região
+- Global
