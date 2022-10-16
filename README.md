@@ -76,3 +76,28 @@ O candidato deve ter os seguintes conhecimentos:
 - Zona de disponibilidade
 - Região
 - Global
+
+# Modelo de responsabilidade compartilhada
+
+- É uma matriz de responsabilidade entre a AWS e o Cliente-AWS, divida em Responsabilidade d Nuvem e Responsabilidade na Nuvem
+
+# Responsabilidade da Nuvem é da AWS
+
+- Hardware, software, rede, datacenter
+
+# Responsabilidade na Nuvem é do Cliente-AWS
+
+- Sistema operacional e serviços que rodam nele
+- Rede (LAN, WAN)
+- Firewall
+- Criptografia de dados
+
+# IAM Identify And Acces Manegement
+
+- Serviços AWS que gerencia usuários, grupos e permissões de acesso aos recursos do ambiente.
+
+# Entidade IAM
+
+- Usuários
+- Grupos
+- Policies
