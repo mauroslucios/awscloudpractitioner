@@ -148,6 +148,14 @@ O candidato deve ter os seguintes conhecimentos:
 
 - É a interface de rede virtaul da instância
 
+# Atributos ENI
+
+- Mac Address
+- Primary private IP Address
+- Elastic IP
+- Public IP
+- Security groups
+
 # Elastic IP
 
 - É um endereço de ip público que reservado para sua conta AWS. Tem-se o controle de mapear e reutilizar em outras instâncias
@@ -156,3 +164,25 @@ O candidato deve ter os seguintes conhecimentos:
 # Público IP
 
 - É aleatoriamente designado à sua instância no momento da inicialização. Não tem-se controle e não pode ser mapeado em outras instâncias
+- É rotacionado ao desligar a instância
+
+# AMI(Imagem de máquina)
+
+- É uma imagem de máquina que fornece as informações necessárias para executar uma instância
+- Pode-se usar uma AMI para criar dezenas de instâncias exatmente iguais
+
+# EBS(Elastica Block Storage)
+
+- Volume de armazenamento altamente disponível e confiável que pode ser anexado em qualquer instância
+- Possibilta criptografia do volume.
+- Possui escopo de AZ
+- SLA 99,999 % de disponibilidade
+- Possui varias opções de desempenho e custo
+
+# Caso de uso de EBS
+
+- Volume de Sistema operacional
+- Dados rapidamente acessíveis
+- Presistência a longo prazo
+- Baixa latência e alta disponibilidade
+- Muito usado para boot e database
