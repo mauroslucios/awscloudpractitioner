@@ -171,7 +171,7 @@ O candidato deve ter os seguintes conhecimentos:
 - É uma imagem de máquina que fornece as informações necessárias para executar uma instância
 - Pode-se usar uma AMI para criar dezenas de instâncias exatmente iguais
 
-# EBS(Elastica Block Storage)
+# EBS(Elastic Block Storage)
 
 - Volume de armazenamento altamente disponível e confiável que pode ser anexado em qualquer instância
 - Possibilta criptografia do volume.
@@ -186,3 +186,32 @@ O candidato deve ter os seguintes conhecimentos:
 - Presistência a longo prazo
 - Baixa latência e alta disponibilidade
 - Muito usado para boot e database
+- Acesso a uma disposito de bloco sem formatção(raw service)
+
+# S3(Simple Service Storage)
+
+- Repositório de arquivos com capacidade ilimitada
+- Somente pode ser acessado via API
+
+# Caso de uso S3
+
+- Capacidade ilimitada de armazenamento
+- Alta disponibilidade
+- Alta durabilidade
+- Armazenamento para backup
+- Única oigem de aramazenamento para entrega de conteúdo via cloudfront
+- Armazenamento de conteúdo elástico
+
+# RDS(Relational Database Service)
+
+- É um serviço de banco de dados(database as a service) totalmente gerenciad pela AWS, que torna fácil implementar, operar e escalar um banco de dados relacional na nuvens. Fornece uma boa relação de custo/benefíco, automatizando tarefas de administração
+- AWS solicita janelas para manutenção de segurança, atualização e backup. Neste período estará indisponível o serviço
+
+# Mecanismo de banco de dados RDS
+
+- Aurora
+- MySQL
+- MariaDB
+- SQl Server
+- Oracle
+- PostgreSQL
