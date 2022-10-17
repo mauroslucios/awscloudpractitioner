@@ -126,5 +126,33 @@ O candidato deve ter os seguintes conhecimentos:
 - Internet Gateway - fornece acesso à internet
 - Virtual Private Gateway - fornece acesso ao seu ambiente On-premisse
 - Nat Gateway(Nat Instance) - fornece acesso à internet para as instâncias, mesmo que elas não tenham end. ip público
+- Security groups - fornece controle do tráfego inbound e oubound
+- ACL (Network Acces Control List) controla o tráfego de entrada e saída de uma subnet
 
--
+# Subnet
+
+- Segmentação de endereçamento de rede dentro de uma VPC
+- Maior range: /16 256 subnet 65534 Ip's
+- Menor tange /128 + 1 milhão de subnet 14 Ip's
+
+# Endereçamento ip Subnet
+
+- 10.0.0.0 Network address
+- 10.0.0.1 Reservado para roteador da VPC
+- 10.0.0.2 Reservado para serviço de DNS
+- 10.0.0.3 Reservado para uso público
+- 10.0.0.4 - 1.0.0.254 Disponíveis para uso
+- 10.0.0.5 Network Broadcast Address
+
+# ENI(Elastic Network Interface)
+
+- É a interface de rede virtaul da instância
+
+# Elastic IP
+
+- É um endereço de ip público que reservado para sua conta AWS. Tem-se o controle de mapear e reutilizar em outras instâncias
+- Tem escopo de serviço de região pode-se usar em todas suas regiões
+
+# Público IP
+
+- É aleatoriamente designado à sua instância no momento da inicialização. Não tem-se controle e não pode ser mapeado em outras instâncias
