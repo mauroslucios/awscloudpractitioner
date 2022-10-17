@@ -96,6 +96,12 @@ O candidato deve ter os seguintes conhecimentos:
 # IAM Identify And Acces Manegement
 
 - Serviços AWS que gerencia usuários, grupos e permissões de acesso aos recursos do ambiente.
+- Usários
+- Grupos
+- Roles
+- Políticas
+- Federação de identidade
+- autenticação MultiFator(MFA)
 
 # Entidade IAM
 
@@ -192,6 +198,7 @@ O candidato deve ter os seguintes conhecimentos:
 
 - Repositório de arquivos com capacidade ilimitada
 - Somente pode ser acessado via API
+- Dados como objetos
 
 # Caso de uso S3
 
@@ -206,6 +213,7 @@ O candidato deve ter os seguintes conhecimentos:
 
 - É um serviço de banco de dados(database as a service) totalmente gerenciad pela AWS, que torna fácil implementar, operar e escalar um banco de dados relacional na nuvens. Fornece uma boa relação de custo/benefíco, automatizando tarefas de administração
 - AWS solicita janelas para manutenção de segurança, atualização e backup. Neste período estará indisponível o serviço
+- Suporte a Multi-AZ
 
 # Mecanismo de banco de dados RDS
 
@@ -215,3 +223,15 @@ O candidato deve ter os seguintes conhecimentos:
 - SQl Server
 - Oracle
 - PostgreSQL
+
+# EC2(Elastic Compute Cloud)
+
+- É uma máquina contendo seu sistema operacional para uso
+
+# Família de instâncias EC2
+
+- Uso geral - recursos equilibrados, diversas cargas de trabalho, seviço web, repositório de código
+- Otimizada para computação - tarefas de computação intensiva, serviços de jogos, computação de alta perfomance(HPC), modelagem científica
+- Otimizada para memória - tarefas com uso intensivo de memória
+- Computação acelerada
+- Otimizada para armazenamento
