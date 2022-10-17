@@ -49,10 +49,11 @@ O candidato deve ter os seguintes conhecimentos:
 
 # Fatores consideráveis ao escolher uma região
 
-- Latência
-- Custo
-- Serviços disponíveis
-- Compliance
+- Latência -> tempo em que os dados são enviados e recebidos
+- Custo -> valor do serviço
+- Serviços disponíveis -> os serviços presentes naquela região
+- Compliance -> seus dados podem estar naquela região?
+- Proximidade -> Onde você tem mais clientes?
 
 # Zonas de disponibilidade
 
@@ -79,7 +80,7 @@ O candidato deve ter os seguintes conhecimentos:
 
 # Modelo de responsabilidade compartilhada
 
-- É uma matriz de responsabilidade entre a AWS e o Cliente-AWS, divida em Responsabilidade d Nuvem e Responsabilidade na Nuvem
+- É uma matriz de responsabilidade entre a AWS e o Cliente-AWS, divida em Responsabilidade da Nuvem e Responsabilidade na Nuvem
 
 # Responsabilidade da Nuvem é da AWS
 
@@ -87,7 +88,7 @@ O candidato deve ter os seguintes conhecimentos:
 
 # Responsabilidade na Nuvem é do Cliente-AWS
 
-- Sistema operacional e serviços que rodam nele
+- Sistema operacional e serviços que rodam no mesmo
 - Rede (LAN, WAN)
 - Firewall
 - Criptografia de dados
@@ -101,3 +102,29 @@ O candidato deve ter os seguintes conhecimentos:
 - Usuários
 - Grupos
 - Policies
+
+# Boas práticas IAM
+
+- NUNCA use a conta root!
+- Crie usuários individuais, nada de usuários compartilhados
+- Use o conceito de menor privilégio
+- Conceda permissões para grupos, não para usuários
+- Configure uma política de senhas
+- Habilite MFA em todas as contas administrativas
+- Para aplicações que rodam em EC2, use roles
+- Rotacione suas credenciais regularmente
+- Use CloudTrail para manter histórico de atividades em sua conta
+
+# VPC Virtual Private Cloud
+
+- Habilita recursos da AWS dentro de uma rede virtual, completamente apartada e exclusiva
+- Semelhante a um ambiente de rede no modo tradicional
+
+# Recursos de uma VPC
+
+- Route table
+- Internet Gateway - fornece acesso à internet
+- Virtual Private Gateway - fornece acesso ao seu ambiente On-premisse
+- Nat Gateway(Nat Instance) - fornece acesso à internet para as instâncias, mesmo que elas não tenham end. ip público
+
+-
