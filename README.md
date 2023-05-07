@@ -61,7 +61,7 @@ O candidato deve ter os seguintes conhecimentos:
 - Situados geograficamente distantes umas das outras
 - Interconectadas através de uma rede de telecom de Baixa Latência
 - É composta por 1(um) ou mais datacenter, recomenda-se 2(dois) ou 3(três) datacenters.
-- AWS possui atualmente 84 zonas de disponibilidade em 26 regiões
+- AWS possui atualmente 99 zonas de disponibilidade em 31 regiões
 
 # Ponto de presença
 
